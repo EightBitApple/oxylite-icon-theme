@@ -8,6 +8,12 @@
       - file: preferences-system-notifications-symbolic.svg
         url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-40/Adwaita/scalable
         license: LGPL-3.0
+- actions/activities.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: preferences-activities.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - actions/add-files-to-archive.svg:
     license: LGPL-3.0
     based_on:
@@ -29,6 +35,36 @@
       - file: org.gnome.Devhelp.svg
         url: https://gitlab.gnome.org/GNOME/devhelp/-/tree/gnome-3-14/data/icons
         license: GPL-2.0-or-later
+- actions/align-horizontal-center.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: align-horizontal-center.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/align-horizontal-left.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: align-horizontal-left.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/align-horizontal-left-out.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: align-horizontal-left-out.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/align-horizontal-right.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: align-horizontal-right.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/align-horizontal-right-out.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: align-horizontal-right-out.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - actions/application-exit.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -53,6 +89,24 @@
       - file: packages.svg
         url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
         license: LGPL-3.0
+- actions/archive-insert.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: packages.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
+      - file: list-add.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/archive-remove.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: packages.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
+      - file: list-remove.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - actions/bookmark-new.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -211,6 +265,18 @@
       - file: view-conversation-balloon.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- actions/chronometer.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: chronometer.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/code-class.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: code-class.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - actions/color-select.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -357,6 +423,15 @@
       - file: text-plain.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- actions/document-replace.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: document-edit.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: text-plain.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - actions/document-revert-rtl.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -400,6 +475,21 @@
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
       - file: emotes.svg
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/download.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: go-up.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: network-workgroup.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/draw-highlight.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: draw-path-use-for-highlight.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - actions/edit-clear-all.svg:
@@ -579,6 +669,12 @@
       - file: edit-undo.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- actions/exchange-positions.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: edit-undo.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - actions/explore.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -612,6 +708,24 @@
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
       - file: edit-select.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/format-font-size-less.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: preferences-desktop-font.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: text-formatting.svg
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/format-font-size-more.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: preferences-desktop-font.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: text-formatting.svg
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - actions/format-indent-less-rtl.svg:
@@ -812,6 +926,15 @@
     license: LGPL-3.0-or-later
     based_on:
       - file: list-add.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/handle-sort.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: align-horizontal-left.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: transform-move.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - actions/help-about.svg:
@@ -1032,7 +1155,7 @@
       - file: mail-unread.svgz
         url: https://github.com/KDE/oxygen-icons
         eicense: LGPL-3.0-or-later
-      - file: mail-senk.svgz
+      - file: mail-send.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - actions/mail-signed-verified.svg:
@@ -1071,6 +1194,15 @@
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - actions/media-eject.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: list-add-unread.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: go-down.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/media-mount.svg:
     license: LGPL-3.0-or-later
     based_on:
       - file: list-add-unread.svgz
@@ -1145,6 +1277,24 @@
       - file: text-plain.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- actions/network-connect.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: dialog-ok-apply.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: network-wired.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/network-disconnect.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: edit-delete.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: network-wired.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - actions/notification-expand.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -1175,6 +1325,12 @@
       - file: edit-undo.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- actions/object-rows.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: align-horizontal-left.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - actions/office-chart-line.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -1184,10 +1340,28 @@
 - actions/open-menu.svg:
     license: LGPL-3.0-or-later
     based_on:
-      - file: arrow-right.svgz
+      - file: list-remove.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
-      - file: application-exit.svgz
+      - file: view-right-new.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/panel-fit-height.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: transform-move.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: zoom-fit-width.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/panel-fit-width.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: transform-move.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: zoom-fit-width.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - actions/power-saving.svg:
@@ -1200,6 +1374,21 @@
     license: LGPL-3.0-or-later
     based_on:
       - file: process-stop.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/quickopen.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: quickopen.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/quickopen-class.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: code-class.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: quickopen.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - actions/screencast-recorded.svg:
@@ -1224,6 +1413,18 @@
     license: LGPL-3.0-or-later
     based_on:
       - file: zoom-select.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/send-signal.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: applications-system.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: quickopen.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: system-run.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - actions/send-to.svg:
@@ -1271,6 +1472,18 @@
       - file: list-add.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- actions/swap-panels.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: view-right-new.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: edit-table-insert-column-right.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: text-formatting.svg
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - actions/system-log-out.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -1316,6 +1529,8 @@
       - file: system-switch-user.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- actions/system-user-prompt.svg:
+    license: LGPL-2.0-or-later or CC-BY-SA-4.0
 - actions/tab-close.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -1348,10 +1563,46 @@
       - file: list-add.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- actions/tag.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: mail-tagged.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/tag-delete.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: mail-tagged.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: edit-delete.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/tag-edit.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: mail-tagged.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: document-edit.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - actions/tag-new.svg:
     license: LGPL-3.0-or-later
     based_on:
       - file: mail-tagged.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: list-add.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/text-speak.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: speaker.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: telepathy-kde.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - actions/tools-check-spelling.svg:
@@ -1367,6 +1618,18 @@
     license: LGPL-3.0-or-later
     based_on:
       - file: tools-wizard.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/transform-move.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: transform-move.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/transform-scale.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: transform-scale.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - actions/translate.svg:
@@ -1420,6 +1683,12 @@
       - file: text-plain.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- actions/view-choose.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: view-choose.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - actions/view-dual.svg:
     license: GPL-3.0-or-later
     based_on:
@@ -1442,6 +1711,21 @@
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
       - file: text-plain.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/view-group.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: view-group.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/view-left-close.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: view-left-close.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: edit-table-delete-column.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - actions/view-list-bullet-rtl.svg:
@@ -1510,6 +1794,12 @@
       - file: text-plain.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- actions/view-media-equalizer.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: view-media-equalizer.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - actions/view-mirror.svg:
     license: LGPL-3.0
     based_on:
@@ -1554,6 +1844,11 @@
     based_on:
       - file: knotes.svgz
         url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/view-presentation.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - url: https://github.com/LibreOffice/core/blob/8900a3469e1263280ffc052993ef34e3a4bcd4bc/sysui/desktop/icons/hicolor/scalable/apps/impress.svg
         license: LGPL-3.0-or-later
 - actions/view-process-own.svg:
     license: LGPL-3.0-or-later
@@ -1618,6 +1913,15 @@
       - file: layer-visible-on.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- actions/view-right-close.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: view-right-close.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: edit-table-delete-column.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - actions/view-ringschart.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -1631,6 +1935,12 @@
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
       - file: edit-table-insert-column-right.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/view-sidetree.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: view-sidetree.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - actions/view-sort.svg:
@@ -1663,6 +1973,24 @@
       - file: text-formatting.svg
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- actions/view-split-left-right.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: view-right-new.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: edit-table-insert-column-right.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/view-split-top-bottom.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: view-right-new.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: edit-table-insert-column-right.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - actions/view-treemap.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -1685,6 +2013,15 @@
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
       - file: text-plain.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/virtual-desktops.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: text-plain.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: video-display.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - actions/vm_clone_wizard.svg:
@@ -1724,6 +2061,15 @@
     license: LGPL-3.0-or-later
     based_on:
       - file: office-chart-area-stacked.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/widget-alternatives.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: preferences-activities.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: text-formatting.svg
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - actions/window-new.svg:
@@ -1911,6 +2257,12 @@
       - url: https://github.com/qt/qttools/blob/v5.1.0/src/assistant/assistant/images/assistant.png
         license: GPL-3.0
       - file: document-edit.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- apps/digikam.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: digikam.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - apps/eclipse.svg:
@@ -2112,6 +2464,15 @@
       - file: kde.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- apps/kdeconnect.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: kde.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: smartphone.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - apps/kicad.svg:
     license: GPL-3.0-or-later
     based_on:
@@ -2147,6 +2508,15 @@
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
       - file: text-plain.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- apps/kwin.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: kde.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: view-right-new.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - apps/kwrite.svg:
@@ -2236,6 +2606,11 @@
       - file: help-hint.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- apps/org.fcitx.Fcitx5.svg:
+    license: LGPL-2.1-or-later
+    based_on:
+      - url: https://github.com/fcitx/fcitx5/blob/5.1.16/data/icon/scalable/apps/org.fcitx.Fcitx5.svg
+        license: LGPL-2.1-or-later
 - apps/org.freecadweb.FreeCAD.svg:
     license: LGPL-2.1-or-later
     based_on:
@@ -2298,6 +2673,9 @@
     based_on:
       - url: https://gitlab.gnome.org/GNOME/fractal/-/blob/5-alpha1/data/icons/org.gnome.Fractal.svg
         license: GPL-3.0-or-later
+      - file: telepathy-kde.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - apps/org.gnome.Glade.svg:
     license: GPL-3.0-or-later
     based_on:
@@ -2474,6 +2852,12 @@
     based_on:
       - url: https://gitlab.com/inkscape/inkscape/-/blob/INKSCAPE_1_2/share/icons/application/scalable/org.inkscape.Inkscape.svg
         license: GPL-3.0-or-later
+- apps/org.kde.neochat.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: telepathy-kde.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - apps/org.rncbc.qjackctl.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -2494,6 +2878,12 @@
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
       - file: utilities-terminal.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- apps/osd-sbs-left.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: video-display.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - apps/pamac.svg:
@@ -2748,6 +3138,12 @@
         license: LGPL-3.0
       - url: https://gitlab.gnome.org/GNOME/seahorse/-/blob/gnome-3-30/data/icons/svg/seahorse.svg
         license: GPL-2.0-or-later
+- apps/showfoto.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: showfoto.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - apps/org.gnome.Showtime.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -2896,6 +3292,12 @@
     based_on:
       - url: https://commons.wikimedia.org/wiki/File:Evince_logo_2011.svg
         license: GPL-2.0-or-later
+- apps/xorg.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: xorg.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - apps/yumex.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -4945,6 +5347,18 @@
       - file: bookmark-new.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- places/folder-black.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
+- places/folder-blue.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
 - places/folder-bookmarks.svg:
     license: LGPL-3.0
     based_on:
@@ -4952,6 +5366,36 @@
         url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
         license: LGPL-3.0
       - file: bookmark-new.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- places/folder-brown.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
+- places/folder-cloud.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
+      - url: http://tango.freedesktop.org/releases/tango-icon-theme-0.8.90.tar.gz
+        file: weather-overcast.svg
+        license: public-domain
+- places/folder-cyan.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
+- places/folder-development.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
+      - file: applications-development.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - places/folder-documents.svg:
@@ -4988,6 +5432,18 @@
         license: LGPL-3.0
       - url: https://gitlab.gnome.org/GNOME/gitg/-/blob/gnome-3-32/data/icons/gitg-icon-source.svg
         license: GPL-2.0-or-later
+- places/folder-green.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
+- places/folder-grey.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
 - places/folder-home.svg:
     license: LGPL-3.0
     based_on:
@@ -4997,6 +5453,30 @@
       - file: go-home.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- places/folder-important.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
+      - file: help-about.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- places/folder-magenta.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
+- places/folder-mail.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
+      - file: mail-unread.svgz
+        url: https://github.com/KDE/oxygen-icons
+        eicense: LGPL-3.0-or-later
 - places/folder-music.svg:
     license: LGPL-3.0
     based_on:
@@ -5012,6 +5492,12 @@
       - file: folders.svg
         url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
         license: LGPL-3.0
+- places/folder-orange.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
 - places/folder-pictures.svg:
     license: LGPL-3.0
     based_on:
@@ -5019,6 +5505,15 @@
         url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
         license: LGPL-3.0
       - file: preferences-desktop-wallpaper.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- places/folder-print.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
+      - file: document-print.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - places/folder-public.svg:
@@ -5045,6 +5540,12 @@
       - file: edit-undo.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- places/folder-red.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
 - places/folder-remote.svg:
     license: LGPL-3.0
     based_on:
@@ -5063,6 +5564,24 @@
       - file: zoom-next.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- places/folder-tar.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
+      - file: packages.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
+- places/folder-temp.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
+      - file: clock.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - places/folder-templates.svg:
     license: GPL-3.0
     based_on:
@@ -5076,7 +5595,7 @@
         url: https://gitlab.gnome.org/GNOME/devhelp/-/tree/gnome-3-14/data/icons
         license: GPL-2.0-or-later
 - places/folder-videos.svg:
-    license: GPL-3.0
+    license: LGPL-3.0
     based_on:
       - file: folders.svg
         url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
@@ -5084,8 +5603,14 @@
       - file: text-plain.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- places/folder-violet.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
 - places/folder.svg:
-    license: GPL-3.0
+    license: LGPL-3.0
     based_on:
       - file: folders.svg
         url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
@@ -5186,13 +5711,90 @@
       - file: trash.svg
         url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
         license: LGPL-3.0
+- preferences/preferences-desktop-baloo.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: text-plain.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: zoom-next.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: preferences-desktop-baloo.svg
+        url: https://github.com/KDE/breeze-icons
+        license: LGPL-3.0-or-later
+- preferences/preferences-desktop-effects:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: tools-wizard.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: video-display.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- preferences/preferences-desktop-filetype-association:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: text-plain.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- preferences/preferences-desktop-icons.svg:
+    license: LGPL-3.0
+    based_on:
+      - file: drive-harddisk.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: folders.svg
+        url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
+        license: LGPL-3.0
+      - file: hardware.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: system-shutdown.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: text-plain.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: video-display.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- preferences/preferences-desktop-theme-applications.svg:
+    license: GPL-3.0-or-later
+    based_on:
+      - file: draw-brush.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - url: https://commons.wikimedia.org/wiki/File:NewTux.svg
+        license: GPL-2.0-or-later
+        attribution: lewing@isc.tamu.edu Larry Ewing and The GIMP
+- preferences/preferences-desktop-plasma-theme.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: draw-brush.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: plasma.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- preferences/preferences-tabs.svg:
+    license: LGPL-2.0-or-later or CC-BY-SA-4.0
+- preferences/preferences-system-login.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: video-display.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- preferences/preferences-web-browser-shortcuts.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: preferences-web-browser-shortcuts.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - preferences/device-notifier.svg:
     license: LGPL-3.0-or-later
     based_on:
-      - file: drive-removable-media.svgz
-        url: https://github.com/KDE/oxygen-icons
-        license: LGPL-3.0-or-later
-      - file: help-about.svgz
+      - file: device-notifier.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - status/airplane-mode.svg:
@@ -6159,6 +6761,66 @@
       - file: network-workgroup.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- status/network-wireless-20-limited.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: network-wireless-connected-00.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: dialog-warning.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- status/network-wireless-20-locked.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: network-wireless-connected-00.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- status/network-wireless-40-limited.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: network-wireless-connected-25.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: dialog-warning.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- status/network-wireless-40-locked.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: network-wireless-connected-25.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- status/network-wireless-60-limited.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: network-wireless-connected-50.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: dialog-warning.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- status/network-wireless-60-locked.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: network-wireless-connected-50.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- status/network-wireless-80-limited.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: network-wireless-connected-75.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: dialog-warning.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- status/network-wireless-80-locked.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: network-wireless-connected-75.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - status/network-wireless-acquiring.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -6583,6 +7245,12 @@
       - file: edit-delete.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- status/user.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: im-user.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - status/user-available.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -6700,6 +7368,21 @@
       - file: weather-icons.svg
         url: https://github.com/GNOME/adwaita-icon-theme/tree/gnome-3-13/src/fullcolor
         license: LGPL-3.0
+- status/weather-none-available.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: help-about.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: weather-clear.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+      - file: weather-clear.svg
+        url: http://tango.freedesktop.org/releases/tango-icon-theme-0.8.90.tar.gz
+        license: public-domain
+      - file: weather-overcast.svg
+        url: http://tango.freedesktop.org/releases/tango-icon-theme-0.8.90.tar.gz
+        license: public-domain
 - status/weather-overcast.svg:
     license: public-domain
     based_on:
